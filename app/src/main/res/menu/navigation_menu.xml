@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--single表示所有菜单项只能单选-->
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_circle"
+            android:icon="@drawable/circle_of_friends"
+            android:title="Circle"/>
+        <item
+            android:id="@+id/nav_people"
+            android:icon="@drawable/near_people"
+            android:title="People"/>
+        <item
+            android:id="@+id/nav_scan"
+            android:icon="@drawable/news_scan"
+            android:title="Scan"/>
+        <item
+            android:id="@+id/nav_shopping"
+            android:icon="@drawable/news_shopping"
+            android:title="Shopping"/>
+        <item
+            android:id="@+id/nav_shake"
+            android:icon="@drawable/news_shake"
+            android:title="Shake"/>
+    </group>
+
+</menu>
